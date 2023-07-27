@@ -42,6 +42,6 @@ npm run start
 ## Contributions
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to open a new issue or submit a pull request.
 
-Developed by Gangadhar for CRISP - Comprehensive Route Information System for Passengers.
+Developed by Gangadhar, Pranavesh, Eeshwar, Anmol, Aarush, Hriday for CRISP - Comprehensive Route Information System for Passengers.
 
 Happy coding 👨‍💻
