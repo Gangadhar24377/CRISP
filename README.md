@@ -1,46 +1,47 @@
+<p align="center">
+    <img width="180" src="https://github.com/Gangadhar24377/CRISP/blob/main/src/images/crisp%20white-m1.png" alt="Material Bread logo">
+</p>
 
-<div align="center" style="margin: 30px;">
-<a href="https://refine.dev/">
-  <img src="https://raw.githubusercontent.com/refinedev/refine/master/logo.png"   style="width:250px;" align="center" />
-</a>
-<br />
-<br />
+# CRISP - Comprehensive Route Information System for Passengers
 
-<div align="center">
-    <a href="https://refine.dev">Home Page</a> |
-    <a href="https://discord.gg/refine">Discord</a> |
-    <a href="https://refine.dev/examples/">Examples</a> | 
-    <a href="https://refine.dev/blog/">Blog</a> | 
-    <a href="https://refine.dev/docs/">Documentation</a> | 
-    <a href="https://github.com/refinedev/refine/projects/1">Roadmap</a>
-</div>
-</div>
+This project was presented at the 9th National Conference on Advancements in Information Technology (NCAIT-2023) held at JSS Academy of Technical Education on May 3, 2023.
 
-<br />
+## Introduction
+Students' lives can get extremely busy and quite hectic, especially those of college students. With their newfound independence comes a hefty requirement of self-governance which can be intimidating for the majority. Although to most with a rigid routine and schedule, getting to the bus on time does not seem like a big task, it can be to a student who has only just started to become self-sufficient. Buses are accessible for travelers going to various places, but most passengers lack comprehensive knowledge about these buses.
 
-<div align="center"><strong>Build your <a href="https://reactjs.org/">React</a>-based CRUD applications, without constraints.</strong><br>An open source, headless web application framework developed with flexibility in mind.
+This includes details such as the number of buses that travel to the desired destination, bus numbers, timings, routes, and estimated travel time. Having this complete information would greatly help passengers in choosing the right routes, tracking the current location of the bus, and getting accurate arrival time at the destination.
 
-<br />
-<br />
+CRISP is a system that uses GPS to determine the precise location of multiple vehicles simultaneously and to record the position of them at regular intervals. The recorded location data is transmitted to a central location database using a cellular modem embedded in the unit. This allows the vehicles’ locations to be displayed against a map backdrop in real-time using GPS tracking software.
 
+## Features
+- Real-time GPS-based tracking of multiple vehicles
+- Displaying vehicle locations against a map backdrop
+- Comprehensive information on bus numbers, timings, routes, and estimated travel time
+- Easy selection of the right bus routes for passengers
+- Accurate arrival time estimation for destinations
+- User-friendly interface for enhanced passenger experience
 
-[![Discord](https://img.shields.io/discord/837692625737613362.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/refine)
-[![Twitter Follow](https://img.shields.io/twitter/follow/refine_dev?style=social)](https://twitter.com/refine_dev)
+## Getting Started
+To get started with the CRISP admin panel repository, follow the steps below:
+## Prerequisites
+Node.js (v14.x or higher) and npm (v6.x or higher) must be installed on your machine.
 
-<a href="https://www.producthunt.com/posts/refine-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-refine&#0045;3" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=362220&theme=light&period=daily" alt="refine - 100&#0037;&#0032;open&#0032;source&#0032;React&#0032;framework&#0032;to&#0032;build&#0032;web&#0032;apps&#0032;3x&#0032;faster | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
-</div>
-
-## Try it out on your local
-
+### 1. Clone the repository to your local machine
 ```bash
-npm create refine-app@latest -- --example finefoods-antd
+git clone https://github.com/your-username/crisp.git
 ```
+### 2. Install the required dependencies:
+```bash
+cd crisp
+npm install
+```
+### 3. Start the development server:
+```bash
+npm run start
+```
+## Contributions
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to open a new issue or submit a pull request.
 
-## Try it out on CodeSandbox
+Developed by Gangadhar for CRISP - Comprehensive Route Information System for Passengers.
 
-<br/>
-
-[![Open finefoods-antd example from refine](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/github/refinedev/refine/tree/next/examples/finefoods-antd?view=preview&theme=dark&codemirror=1)
-        
-"# CRISP" 
+Happy coding 👨‍💻
